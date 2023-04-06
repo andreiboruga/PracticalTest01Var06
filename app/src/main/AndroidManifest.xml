@@ -12,6 +12,9 @@
         android:theme="@style/Theme.PracticalTest01Var06"
         tools:targetApi="31">
         <activity
+            android:name=".PracticalTest01Var06SecondaryActivity"
+            android:exported="false" />
+        <activity
             android:name=".PracticalTest01Var06MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,6 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".PracticalTest01Var06Service"
+            android:exported="true" />
     </application>
 
 </manifest>
